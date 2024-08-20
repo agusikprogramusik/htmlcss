@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+.nav {
+	height: 50px;
+	background-color: #333;
+	text-align: center;
+	line-height: 50px;
+	font-size: 0;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.nav-item a {
+	color: white;
+	padding: 0px 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
+.nav-item a:hover {
+	color: blue;
+	transition: color 1s;
+}
+
+/* Header */
+
+.header-img {
+	position: relative;
+	height: 300px;
+	background-image: url('/img/planets-1956031_1920.jpg ');
+}
